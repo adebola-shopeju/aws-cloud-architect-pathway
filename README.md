@@ -1,28 +1,34 @@
 # 👋 Adebola's Cloud Journey
 
-> Aspiring Remote Azure Cloud Engineer | 
-> Currently: Week 1 — Git, Linux & Azure Fundamentals
+> Aspiring Remote Azure Cloud Engineer |
+> Currently: Week 2 — Linux Services, Cron Jobs & Python Basics
 
 ---
 
 ## 🎯 Goal
-To become a remote Azure Cloud Engineer, 
-building expertise in Microsoft Azure, 
+To become a remote Azure Cloud Engineer,
+building expertise in Microsoft Azure,
 Linux, and cloud infrastructure.
 
 ---
 
 ## 📅 Week 1 Progress
 
-- [x] Git & GitHub — version control, 
-      branching, pull requests
-- [x] Linux Filesystem — navigation, 
-      commands, file permissions
-- [x] SSH — key pair setup & 
-      GitHub authentication
+- [x] Git & GitHub — version control, branching, pull requests
+- [x] Linux Filesystem — navigation, commands, file permissions
+- [x] SSH — key pair setup & GitHub authentication
 - [x] Cloud Concepts — IaaS, PaaS, SaaS
-- [x] Azure Portal — resource groups 
-      & billing alerts
+- [x] Azure Portal — resource groups & billing alerts
+
+---
+
+## 📅 Week 2 Progress
+
+- [x] systemd & systemctl — service management on Linux
+- [x] File permissions in depth — chmod 755/644/600
+- [x] Cron jobs — automated scheduled tasks with timestamped logs
+- [x] Process management — ps aux, top, htop, kill by PID
+- [x] Python basics — variables, loops, conditionals
 
 ---
 
@@ -40,6 +46,10 @@ Linux, and cloud infrastructure.
 | `git add .` | Stage changes |
 | `git commit -m` | Save a snapshot |
 | `git push` | Send to GitHub |
+| `systemctl status` | Check service status |
+| `systemctl enable` | Start service on boot |
+| `ps aux` | List all running processes |
+| `crontab -e` | Edit scheduled cron jobs |
 
 ---
 
@@ -57,5 +67,4 @@ Linux, and cloud infrastructure.
 
 ---
 
-*Started: May 2026 · 
-CloudOps  Remote-First Program*
+*Started: May 2026 · CloudOps Remote-First Program*
