@@ -68,3 +68,8 @@ Linux, and cloud infrastructure.
 ---
 
 *Started: May 2026 · CloudOps Remote-First Program*
+| `python3` | Run a Python file |
+| `touch` | Create a new file |
+| `git checkout -b` | Create and switch to a new branch |
+| `git push origin` | Push a branch to GitHub |
+| `git pull origin` | Pull latest changes from GitHub |
