@@ -1,0 +1,44 @@
+# Sensitive credentials - never commit
+.aws/
+.ssh/
+.azure/
+.gitconfig
+.zsh_history
+.zsh_sessions/
+.viminfo
+.lesshst
+.python_history
+.CFUserTextEncoding
+.idlerc/
+.vscode/
+.vscode-shared/
+
+# Mac system files
+.DS_Store
+.Trash/
+
+# Personal folders - not part of AWS repo
+Applications/
+Desktop/
+Downloads/
+Documents/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+PycharmProjects/
+Creative Cloud Files/
+auto-log.json
+
+# Other projects - have their own repos
+azure-learning-journal/
+azure-vm-python/
+cloudops-lab/
+cloudops/
+linux-journey/
+my-cloud-journey/
+sunday-drill/
+test-project/
+index.html
+index.html.1
