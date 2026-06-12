@@ -12,6 +12,9 @@
 .idlerc/
 .vscode/
 .vscode-shared/
+credentials
+*access-key*
+*secret*
 
 # Mac system files
 .DS_Store
