@@ -1,6 +1,6 @@
-# W1-D4 Journal — Cloud Concepts & Console Mastery
+# W1-D4 Journal Cloud Concepts & Console Mastery
 **Date:** 11 June 2026
-**Program:** CloudOps Nigeria AWS Cloud Architect Program
+**Program:** CloudOps AWS Cloud Architect Program
 
 ## What I Learned Today
 
