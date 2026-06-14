@@ -1,6 +1,6 @@
-# W1-D4 Journal — Cloud Concepts & Console Mastery
+# W1-D4 Journal Cloud Concepts & Console Mastery
 **Date:** 11 June 2026
-**Program:** CloudOps Nigeria AWS Cloud Architect Program
+**Program:** CloudOps AWS Cloud Architect Program
 
 ## What I Learned Today
 
@@ -20,4 +20,4 @@ Realising that I needed to log into my root user account to give my adebola_dev 
 
 ## One Thing I Want to Explore Further
 
-How to fully use the AWS Console — there are many services I have not explored yet.
+How to fully use the AWS Console there are many services I have not explored yet.
