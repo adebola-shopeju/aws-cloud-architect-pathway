@@ -1,15 +1,5 @@
-# AWS Cloud Journey - Adebola Shopeju
+## Week 2 Architecture
 
-## About Me
-Junior Cloud Engineer in training.
+![VPC Diagram](week2/week2-vpc-diagram.png)
 
-## AWS Certifications Target
-- CLF-C02 (AWS Cloud Practitioner)
-- AIF-C01 (AWS AI Practitioner)
-- SAA-C03 (AWS Solutions Architect Associate)
-
-## Weekly Learning Logs
-- Week 1: Git & GitHub Foundations
-
-## Tools
-Git, VS Code, AWS Console, Quizlet
+A three-tier VPC architecture built from memory — public subnet (web server), private subnet (app server), and database subnet, connected via Internet Gateway with NACL and Security Group protection at every layer.
