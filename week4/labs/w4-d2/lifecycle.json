@@ -1,0 +1,23 @@
+{
+  "Rules": [
+    {
+      "ID": "transition-to-ia",
+      "Status": "Enabled",
+      "Filter": {},
+      "Transitions": [
+        {
+          "Days": 30,
+          "StorageClass": "STANDARD_IA"
+        }
+      ]
+    },
+    {
+      "ID": "expire-old-versions",
+      "Status": "Enabled",
+      "Filter": {},
+      "NoncurrentVersionExpiration": {
+        "NoncurrentDays": 90
+      }
+    }
+  ]
+}
