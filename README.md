@@ -69,8 +69,15 @@ aws-cloud-architect-pathway/
 | W1 | Git · Linux · IAM basics | IAM group + CLI configured |
 | W2 | EC2 · VPC · SSH | EC2 lifecycle lab · week2-vpc (10.0.0.0/16) |
 | W3 | Python · boto3 · IAM policies | EC2 automation script · IAM least privilege remediation |
-| W4 | S3 · versioning · static hosting | *(upcoming)* |
+| W4 | S3 · versioning · static hosting | Secrets Manager · Parameter Store |
 
+## Month 1 Summary
+
+Four weeks in. Git and GitHub for version control, IAM for least-privilege access, EC2 for compute, a custom VPC for networking, S3 for storage (versioning + static hosting), and Secrets Manager / Parameter Store for configuration and secrets management.
+
+- Static site live: [S3 website endpoint](http://adebola-w4d3-static-site.s3-website.eu-west-2.amazonaws.com)
+- Full write-up: [My first month learning AWS](https://lnkd.in/eGXvqKG5)
+- 35+ Quizlet cards, daily journals, and lab screenshots committed for every session
 ---
 
 ## Core Principles
