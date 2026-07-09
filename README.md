@@ -43,23 +43,27 @@ Each week produces real, committed evidence — not just notes.
 
 ## Repo Structure
 
-```
 aws-cloud-architect-pathway/
 ├── week1/
 │   ├── journals/        # daily learning logs
-│   ├── labs/            # screenshots and lab outputs
-│   └── scripts/         # Python and bash scripts
+│   └── labs/            # screenshots and lab outputs
 ├── week2/
-│   └── ...
+│   ├── journals/
+│   ├── labs/
+│   └── scripts/         # Python and bash scripts
 ├── week3/
 │   ├── journals/
 │   ├── labs/
 │   ├── scripts/
 │   └── iam-policies/    # least privilege policy JSON files
-├── evidence/            # key screenshots for portfolio use
+├── week4/
+│   ├── journals/
+│   └── labs/
+├── week5/
+│   ├── journals/
+│   ├── labs/
+│   └── scripts/
 └── .gitignore           # AWS credentials never committed
-```
-
 ---
 
 ## Progress Log
