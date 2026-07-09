@@ -43,6 +43,8 @@ Each week produces real, committed evidence — not just notes.
 
 ## Repo Structure
 
+Each week follows the same pattern: `journals/` and `labs/` always present; `scripts/` and `iam-policies/` added only when that week's work needs them.
+
 aws-cloud-architect-pathway/
 ├── week1/
 │   ├── journals/        # daily learning logs
@@ -64,6 +66,7 @@ aws-cloud-architect-pathway/
 │   ├── labs/
 │   └── scripts/
 └── .gitignore           # AWS credentials never committed
+
 ---
 
 ## Progress Log
@@ -82,6 +85,7 @@ Four weeks in. Git and GitHub for version control, IAM for least-privilege acces
 - Static site live: [S3 website endpoint](http://adebola-w4d3-static-site.s3-website.eu-west-2.amazonaws.com)
 - Full write-up: [My first month learning AWS](https://lnkd.in/eGXvqKG5)
 - 35+ Quizlet cards, daily journals, and lab screenshots committed for every session
+
 ---
 
 ## Core Principles
