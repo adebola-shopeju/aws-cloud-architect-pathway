@@ -45,6 +45,7 @@ Each week produces real, committed evidence — not just notes.
 
 Each week follows the same pattern: `journals/` and `labs/` always present; `scripts/` and `iam-policies/` added only when that week's work needs them.
 
+```
 aws-cloud-architect-pathway/
 ├── week1/
 │   ├── journals/        # daily learning logs
@@ -66,6 +67,7 @@ aws-cloud-architect-pathway/
 │   ├── labs/
 │   └── scripts/
 └── .gitignore           # AWS credentials never committed
+```
 
 ---
 
