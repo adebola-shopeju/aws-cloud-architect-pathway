@@ -44,7 +44,6 @@ Each week produces real, committed evidence — not just notes.
 ## Repo Structure
 
 Each week follows the same pattern: `journals/` and `labs/` always present; `scripts/` and `iam-policies/` added only when that week's work needs them.
-
 ```
 aws-cloud-architect-pathway/
 ├── week1/
@@ -64,7 +63,7 @@ aws-cloud-architect-pathway/
 │   └── labs/
 ├── week5/
 │   ├── journals/
-│   ├── labs/
+│   ├── labs/            # per-day subfolders: W5-D1/ through W5-D5/
 │   └── scripts/
 └── .gitignore           # AWS credentials never committed
 ```
@@ -79,6 +78,7 @@ aws-cloud-architect-pathway/
 | W2 | EC2 · VPC · SSH | EC2 lifecycle lab · week2-vpc (10.0.0.0/16) |
 | W3 | Python · boto3 · IAM policies | EC2 automation script · IAM least privilege remediation |
 | W4 | S3 · versioning · static hosting | Secrets Manager · Parameter Store |
+| W5 | VPC deep-dive · NAT · NACLs · AWS Config | Full VPC integration: bastion host access, custom NACL with deny rule, AWS Config compliance monitoring |
 
 ## Month 1 Summary
 
@@ -87,6 +87,23 @@ Four weeks in. Git and GitHub for version control, IAM for least-privilege acces
 - Static site live: [S3 website endpoint](http://adebola-w4d3-static-site.s3-website.eu-west-2.amazonaws.com)
 - Full write-up: [My first month learning AWS](https://lnkd.in/eGXvqKG5)
 - 35+ Quizlet cards, daily journals, and lab screenshots committed for every session
+
+## Month 2 Kickoff
+
+Week 5 marked a shift from individual services to full integration —
+building a production-style VPC end to end rather than isolated pieces.
+
+- Public and private subnets, NAT Gateway, and route tables working
+  together as a real network, not just individual labs
+- Bastion host access pattern: reaching a private, non-internet-facing
+  instance safely through a public jump box with SSH agent forwarding
+- Custom Network ACLs with deliberate deny rules — proven working, not
+  just configured, by testing both the allow and block paths
+- AWS Config actively monitoring Security Group compliance across the
+  account, continuously, in the background
+
+Month 2 moves into Load Balancers, Auto Scaling, and Systems Manager —
+building on this networking foundation rather than starting fresh.
 
 ---
 
