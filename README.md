@@ -1,7 +1,7 @@
 # AWS Cloud Architect Pathway
 ### Adebola Shopeju · CloudOps · 2026
 
-> Building production-grade AWS skills in public every lab, every mistake, every fix committed here.
+> Building production grade AWS skills in public every lab, every mistake, every fix committed here.
 
 ---
 
@@ -9,8 +9,8 @@
 
 | Cert | Status | Target |
 |------|--------|--------|
-| AWS Cloud Practitioner (CLF-C02) | 🟡 In progress | Month 2 (Week 8) |
-| AWS AI Practitioner (AIF-C01) | ⬜ Upcoming | Month 3 (Week 12) |
+| AWS Cloud Practitioner (CLF-C02) | ✅ Certified | Month 2 (Week 9) |
+| AWS AI Practitioner (AIF-C01) | 🟡 In progress | Month 3 (Week 12) |
 | AWS Solutions Architect Associate (SAA-C03) | ⬜ Upcoming | Month 6 (Week 26) |
 
 ---
@@ -43,7 +43,7 @@ Each week produces real, committed evidence not just notes.
 
 ## Repo Structure
 
-Each week follows the same pattern: `journals/` and `labs/` always present; `scripts/` and `iam-policies/` added only when that week's work needs them.
+Each week follows the same pattern: `journals/` and `labs/` always present; `scripts/` and `iam policies/` added only when that week's work needs them.
 ```
 aws-cloud-architect-pathway/
 ├── week1/
@@ -87,7 +87,7 @@ aws-cloud-architect-pathway/
 Four weeks in. Git and GitHub for version control, IAM for least-privilege access, EC2 for compute, a custom VPC for networking, S3 for storage (versioning + static hosting), and Secrets Manager / Parameter Store for configuration and secrets management.
 
 - Static site live: [S3 website endpoint](http://adebola-w4d3-static-site.s3-website.eu-west-2.amazonaws.com)
-- Full write-up: [My first month learning AWS](https://lnkd.in/eGXvqKG5)
+- Full write up: [My first month learning AWS](https://lnkd.in/eGXvqKG5)
 - 35+ Quizlet cards, daily journals, and lab screenshots committed for every session
 
 ## Month 2 Kickoff
@@ -105,19 +105,12 @@ Month 2 moves into Load Balancers, Auto Scaling, and Systems Manager building on
 
 Eight weeks in, and Cloud Practitioner (CLF-C02) is certified.
 
-- **Networking depth** — SSM Agent for keyless access, Application Load
-  Balancer with path-based routing and sticky sessions, Auto Scaling
-  Groups keeping instance count aligned to demand
-- **Delivery and content** — CloudFront in front of S3, locked down with
-  Origin Access Control so the bucket is only reachable through the
-  distribution, not directly
-- **Messaging** — SQS with visibility timeouts, long polling, and
-  dead-letter queues for reliable async processing
-- **Security and billing** — Support tiers, Shared Responsibility Model,
-  Well-Architected Framework's 6 pillars, Trusted Advisor cost checks
-- **Exam prep** — 4 timed mock exams, missed-question drilling by domain,
-  real exam sat and passed
-- Full write-up: [Passed AWS Cloud Practitioner](#) *(add LinkedIn post link)*
+- **Networking depth** — SSM Agent for keyless access, Application Load Balancer with path based routing   and sticky sessions, Auto Scaling Groups keeping instance count aligned to demand
+- **Delivery and content** — CloudFront in front of S3, locked down with Origin Access Control so the      bucket is only reachable through the distribution, not directly
+- **Messaging** — SQS with visibility timeouts, long polling, and dead letter queues for reliable async    processing
+- **Security and billing** — Support tiers, Shared Responsibility Model, Well Architected Framework's 6    pillars, Trusted Advisor cost checks
+- **Exam prep** — 4 timed mock exams, missed question drilling by domain, real exam sat and passed
+- Full write-up: [Passed AWS Cloud Practitioner](https://www.linkedin.com/posts/adebola-shopeju_i-passed-the-clf-c02-this-week-but-it-was-share-7491929999516651520-ML9V)
 
 Month 3 moves into AI Practitioner (AIF-C01) prep, running alongside
 Solutions Architect Associate (SAA-C03) as parallel "flavor" content.
