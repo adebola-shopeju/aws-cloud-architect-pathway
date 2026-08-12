@@ -1,7 +1,27 @@
+# macOS
 .DS_Store
+
+# Credentials & secrets
 credentials
 *access-key*
 *secret*
+.env
+*.pem
+*.key
+aws_credentials
+
+# Terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+
+# Python
 boto3-env/
 venv/
 *.pyc
+__pycache__/
+
+# Node (in case any lab/tool uses it)
+node_modules/
